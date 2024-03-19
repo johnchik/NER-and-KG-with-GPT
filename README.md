@@ -6,11 +6,13 @@ We built a pipeline of text prepocessing, named entitiy recognition and knowledg
 
 # How to use it?
 1. Install necessary packages first
-
-`pip install -r requirements.txt`
-
+   ```
+   pip install -r requirements.txt
+   ```
 2. Run the following command to grab the idea of our project
 
-`python main.py`
+   ```
+   python main.py
+   ```
 
-3. Add you own `api_key` in `config/cred/__init__.py` to use it
+2. Add you own `api_key` in `config/cred/__init__.py` to use it
