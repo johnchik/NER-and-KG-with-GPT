@@ -15,4 +15,4 @@ We built a pipeline of text prepocessing, named entitiy recognition and knowledg
    python main.py
    ```
 
-2. Add you own `api_key` in `config/cred/__init__.py` to use it
+3. Add you own `api_key` in `config/cred/__init__.py` to use it.
