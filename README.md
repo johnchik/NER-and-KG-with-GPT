@@ -1,6 +1,6 @@
 # Data Analytics Practice Opportunity 2023/24
 
-This repository provides the source code of project "Enhancing Historical Insights: Named Entity Recognition (NER) and Knowledge Graph Construction on the _Chinese Student Weekly_ with ChatGPT"
+This repository provides the source code of project "**Enhancing Historical Insights: Named Entity Recognition (NER) and Knowledge Graph Construction on the _Chinese Student Weekly_ with ChatGPT**"
 
 We built a pipeline of text prepocessing, named entitiy recognition and knowledge graph construction.
 
