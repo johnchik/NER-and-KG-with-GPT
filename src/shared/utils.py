@@ -2,7 +2,7 @@ from typing import TypedDict
 from opencc import OpenCC
 
 class Credential_Azure(TypedDict):
-    deployment_id: str
+    azure_endpoint: str
     api_version: str
     api_key: str
 
