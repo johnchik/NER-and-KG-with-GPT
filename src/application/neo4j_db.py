@@ -20,11 +20,14 @@ class Neo4jDB():
         
         print(f"{nodes_created = }, {relationships_created = }")
 
+        # This deletes nodes without names
         self.client_db.execute_query(
             "MATCH (n) WHERE size(labels(n)) = 0 DETACH DELETE n",
             database_="neo4j"
         )
 
+        # These four commands merge similar nodes
+        # Note : Neo4j database must have the apoc package installed to run the following
         self.client_db.execute_query(
             "MATCH (n:Organization) WITH toLower(n.name) as name, collect(n) as nodes CALL apoc.refactor.mergeNodes(nodes) yield node RETURN *",
             database_="neo4j"
